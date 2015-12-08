@@ -12,7 +12,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class DBImport {
-
+	// static
 	public static String parseString(String str) {
 		return str.replace("\"", "\\\"").replace("/", " or ").replace("'", "");
 	}
